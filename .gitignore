@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Production build folders
+dist/
+frontend/dist/
+
+# Environment variables (SECURITY!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor specific
+.vscode/
+.idea/
+.DS_Store
+
+# Misc
+temp/
+coverage/
