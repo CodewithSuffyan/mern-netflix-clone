@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "backend/server.js",
   "type": "module",
- "scripts": {
+"scripts": {
+  "dev": "nodemon backend/server.js",
   "build": "npm install && cd frontend && npm install && npm run build",
   "start": "node backend/server.js"
 },
