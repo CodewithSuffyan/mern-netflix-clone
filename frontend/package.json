@@ -3,12 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build --outDir dist",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "build": "vite build"
+},
   "dependencies": {
     "axios": "^1.7.2",
     "lucide-react": "^0.408.0",
