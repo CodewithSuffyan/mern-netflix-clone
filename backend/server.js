@@ -13,7 +13,7 @@ import { connectDB } from "./config/db.js";
 import { protectRoute } from "./middleware/protectRoute.js";
 
 const app = express();
-const PORT = ENV_VARS.PORT
+const PORT = ENV_VARS.PORT || 5000
 const __dirname = path.resolve();
 
 
